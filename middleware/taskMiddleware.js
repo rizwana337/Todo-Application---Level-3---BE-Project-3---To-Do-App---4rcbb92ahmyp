@@ -79,7 +79,7 @@ async function isowner(req, res, next) {
         }catch(err){
             res.status(404).json({
                 status:'fail',
-                message:'Given task does not exits'
+                message:'Given task doesnot exist'
             })
 
         }
